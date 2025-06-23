@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.third_lab_section{
+    height: auto;
+    width:100%;
+    background-color: skyblue;
+    padding: 100px 10px;
+    display:flex;
+    flex-direction: row;
+}
+.first_child_section{
+    height: 300px;
+    width:40%;
+    background-color: red;
+    position: relative;
+}
+
+.second_child_section{
+    height: 300px;
+    width: 60%;
+    background-color: green;
+}
+.adjust_section{
+    height: 100px;
+    width: 100px;
+    background-color: #000000;
+    position:absolute;
+    right: -50px;
+    bottom: -50px;
+    border-radius: 100%;
+
+}
+
+@media screen and (max-width:400px) {
+    .third_lab_section{
+        background-color: silver;
+        flex-direction: column;
+    }
+    .first_child_section{
+        width:100%;
+        background-color: pink;;
+    }
+    .second_child_section{
+        width:100%;
+        background-color: magenta;
+    }
+    .adjust_section {
+    height: 75px;
+    width: 75px;
+    background-color: mediumvioletred;
+    position: absolute;
+    bottom: -37.5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+    
+}

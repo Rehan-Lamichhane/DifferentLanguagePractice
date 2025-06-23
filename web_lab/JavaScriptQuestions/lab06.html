@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odd Even</title>
+    <link rel="stylesheet" href="./lab06.css">
+</head>
+<body>
+    <form >
+        <label >Enter a number to check: </label>
+        <input type="number"  id="checkNum">
+        <input type="button" id="OddEvenBtn" value="Odd or Even" onclick="oddEvenCheck()">
+    </form>
+    <p id="result"></p>
+    <button onclick="removeFirstItem()">Remove First Item</button>
+    <button onclick="addListItem('Wonder Woman')">Add 'Wonder Woman'</button>
+    <button onclick="logParentAndChildren()">Log Parent & Children</button>
+    <button onclick="highlightAllItems()">Highlight All</button>
+    <button onclick="logNodeListText()">Log NodeList Text</button>
+
+    
+    <ul id="listUsingjs"></ul>
+    
+
+</body>
+<script src="./lab06.js"></script>
+</html>
