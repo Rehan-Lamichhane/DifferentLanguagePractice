@@ -1,0 +1,24 @@
+.plane1{
+    position: absolute;
+    top:0;
+    width:300px ;
+    height: 400px;
+    left:0;
+    z-index: 0;
+}
+.plane2{
+    position: relative;
+    width:300px ;
+    height: 400px;
+    top:50px;
+    left:110px;
+    z-index: 0;
+}
+.plane3{
+    position: absolute;
+    width:300px ;
+    height: 400px;
+    top:100px;
+    left:220px;
+    z-index: 0;
+}
