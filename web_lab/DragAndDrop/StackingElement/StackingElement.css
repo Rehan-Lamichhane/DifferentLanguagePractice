@@ -1,10 +1,10 @@
 .plane1{
     position: absolute;
-    top:0;
+    top:100px;
     width:300px ;
     height: 400px;
     left:0;
-    z-index: 0;
+    z-index: 3;
 }
 .plane2{
     position: relative;
@@ -18,7 +18,7 @@
     position: absolute;
     width:300px ;
     height: 400px;
-    top:100px;
+    top:00px;
     left:220px;
-    z-index: 0;
+    z-index:0;
 }

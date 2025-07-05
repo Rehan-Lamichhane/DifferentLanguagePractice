@@ -5,7 +5,7 @@ function toTop(obj) {
     var domTop = document.getElementById(topp).style;
     var domNew = document.getElementById(obj).style;
 
-    domTop.zIndex = '-10';
+    domTop.zIndex = '0';
     domNew.zIndex = '10';
 
     topp = obj; 
