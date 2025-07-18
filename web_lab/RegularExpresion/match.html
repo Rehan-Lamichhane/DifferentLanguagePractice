@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let firstExp = /namaste/gi;
+        let greeting = "Namaste sir. You didn't response my namaste.";
+
+        let matchValue;
+        let matchedPattern=[];
+        do{
+            matchValue = firstExp.exec(greeting);
+            if(matchValue){
+                matchedPattern.push(matchValue);
+            }
+        }while(matchValue != null);
+
+        console.log(greeting.match(firstExp));
+
+        let phnNumber = '9746505699';
+        let regPhone = /^\9[7-8][0-9]{8}$/;
+        if(phnNumber.match(regPhone)){
+            console.log("Correct phone number. ");
+        }else{
+            console.log('Not a valild number.');
+        }
+    </script>
+</body>
+</html>

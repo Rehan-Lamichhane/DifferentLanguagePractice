@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regular expression</title>
+    <script>
+        var re = new RegExp("String");
+        if(re.global){
+            document.write("Test1 -Global Property is set");
+        }else{
+            document.write("Test1 -Global Property is not set");
+        }
+        re = new RegExp("string","g");
+        if(re.global){
+            document.write("<br>Test2 -Global Property is set");
+        }else{
+            document.write("<br>Test2 -Global Property is not set");
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
