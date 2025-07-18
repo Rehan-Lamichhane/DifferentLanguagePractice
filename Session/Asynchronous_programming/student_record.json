@@ -1,0 +1,20 @@
+[
+    {
+        "roll no" : 1,
+        "Name" : "Harish",
+        "Gender":"Male",
+        "Address":"Lalitpur"
+    },
+    {
+        "roll no" : 2,
+        "Name" : "Ramesh",
+        "Gender":"Male",
+        "Address":"Kathmandu"
+    },
+    {
+        "roll no" : 4,
+        "Name" : "Gita",
+        "Gender":"female",
+        "Address":"Bhaktapur"
+    }
+]
